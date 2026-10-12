@@ -1,0 +1,15 @@
+---
+name: devise_i18n_cr
+version: 0.1.0
+crystal: ">= 1.21.0"
+description: |
+  Порт devise-i18n 1.16.1 (github.com/heartcombo/devise-i18n) на Crystal — 1:1.
+  73 локали словаря devise, запечённые в бинарь и регистрируемые в
+  Devise::I18n при require (аналог railtie I18n.load_path.concat).
+
+authors:
+  - oleg
+
+dependencies:
+  devise_cr:
+    path: ../../rails.cr/devise.cr
