@@ -12,4 +12,5 @@ authors:
 
 dependencies:
   devise_cr:
-    path: ../../rails.cr/devise.cr
+    github: OrelSokolov/devise.cr
+    version: ~> 0.1.0
